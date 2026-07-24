@@ -32,3 +32,10 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+
+ const navigation = document.querySelector(".navigation10");
+
+        navigation.addEventListener("click", () => {
+            navigation.classList.toggle("active");
+        });
